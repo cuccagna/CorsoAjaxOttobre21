@@ -1,0 +1,12 @@
+https://www.flaviobiscaldi.it/blog/protocollo-http-cosa-e-come-funziona
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+https://jsonplaceholder.typicode.com/
+
+https://openweathermap.org/
+
+http://www.omdbapi.com/
+
+https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html
+
