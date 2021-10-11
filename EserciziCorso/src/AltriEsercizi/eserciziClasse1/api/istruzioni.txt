@@ -1,0 +1,9 @@
+1. aprire la cartella api con visual studio code
+2. cliccare sulla voce di menu Terminale, sulla barra in alto
+3. cliccare su new terminal/nuovo terminale
+4. digitare sul terminale aperto il seguente comando:   npm install
+5. premi invio
+5. finita l'installazione dei vari pacchetti (le dipendenze), digita: npm start
+6. premi invio
+7. ora sei pronto ad effettuare le richiesta http verso 
+la request url http://localhost/3000/studenti

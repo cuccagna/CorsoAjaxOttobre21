@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="studenti.js"></script>
+    <title>Lista Studenti</title>
+</head>
+<body>
+
+
+    <form id="inserisciStudente">
+
+        <div>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+        </div>
+
+        <div>
+            <label for="cognome">Cognome</label>
+            <input type="text" id="cognome">
+        </div>
+
+        <div>
+            <label for="eta">Età</label>
+            <input type="number" id="eta">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+        </div>
+
+        <button type="submit">aggiungi studente</button>
+        
+    </form>
+
+
+
+
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Cognome</th>
+                <th>Età</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="listaStudenti">
+
+        </tbody>
+    </table>
+</body>
+</html>

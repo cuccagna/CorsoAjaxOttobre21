@@ -1,0 +1,14 @@
+<employees>
+    <employee>
+        <firstname>Giovanni</firstname>
+        <lastname>Storti</lastname>
+    </employee>
+    <employee>
+        <firstname>Pippo</firstname>
+        <lastname>Disney</lastname>
+    </employee>
+    <employee>
+        <firstname>Topolino</firstname>
+        <lastname>Disney</lastname>
+    </employee>
+</employees>

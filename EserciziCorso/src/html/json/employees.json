@@ -1,0 +1,16 @@
+{
+    "employees": [
+        {
+            "firstname: "Giovanni",
+            "lastname": "Storti"
+        },
+        {
+            "firstname": "Pippo",
+            "lastname": "Disney"
+        },
+        {
+            "firstname": "Topolino",
+            "lastname": "Disney"
+        }
+    ]
+}

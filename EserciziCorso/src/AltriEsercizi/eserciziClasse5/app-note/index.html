@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="app-note.js" type="module"></script>
+    <title>App Note</title>
+</head>
+<body>
+
+
+    <form id="inserisciNota" style="border: solid 1px black;">
+       <h2>inserisci la tua nota</h2>
+        <div>
+            <label for="titolo">titolo</label>
+            <input type="text" id="titolo">
+        </div>
+
+        <div>
+            <label for="nota">nota</label>
+            <input type="text" id="nota">
+        </div>
+
+        <div>
+            <label for="dettaglio">dettaglio</label>
+            <input type="text" id="dettaglio">
+        </div>
+
+        <button type="submit">aggiungi nota</button>
+    </form>
+
+
+    <form id="cancellaNota" style="border: solid 1px black;">
+
+        <h2>cancella la nota tramite l'id</h2>
+        <label for="idNota">inserisci l'id della nota</label>
+        <input type="number" id="idNota">
+        <button type="submit">cancella</button>
+    </form>
+
+
+    <form id="recuperaDettaglio" style="border: solid 1px black;">
+        <h2>recupera dettaglio della nota tramite l'id</h2>
+        <label for="idNotaDettaglio">inserisci l'id della nota</label>
+        <input type="number" id="idNotaDettaglio">
+        <button type="submit">carica dettaglio</button>
+    </form>
+
+    <form id="aggiornaNota" style="border: solid 1px black;">
+        <h2>aggiorna la tua nota</h2>
+
+        <input type="hidden" id="idNotaAgg">
+        <div>
+            <label for="titoloAgg">titolo</label>
+            <input type="text" id="titoloAgg">
+        </div>
+
+        <div>
+            <label for="notaAgg">nota</label>
+            <input type="text" id="notaAgg">
+        </div>
+
+        <div>
+            <label for="dettaglioAgg">dettaglio</label>
+            <input type="text" id="dettaglioAgg">
+        </div>
+
+        <button type="submit">aggiorna nota</button>
+    </form>
+
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>titolo</th>
+                <th>nota</th>
+            </tr>
+        </thead>
+        <tbody id="listaNote">
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
